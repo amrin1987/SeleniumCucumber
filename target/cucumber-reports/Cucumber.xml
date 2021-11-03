@@ -1,43 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="142.64">
-    <testcase classname="Free CRM create Contacts" name="Free CRM create a new contact scenario" time="46.294">
-        <failure message="expected:&lt;[Cogmento CRM]&gt; but was:&lt;[#1 Free CRM customer relationship management software cloud]&gt;" type="org.junit.ComparisonFailure">
-            <![CDATA[Given user already in login Page............................................passed
-When title of login page is Cogmento CRM....................................failed
-Then user enters amrin01@gmail.com and Amrin7890............................skipped
-Then user click to login Button.............................................skipped
-Then user is on Home Page...................................................skipped
-Then user moves to new contact page.........................................skipped
-Then user enters details Amrin and Nargis and Manager.......................skipped
-Then close the browser......................................................skipped
-
-StackTrace:
-org.junit.ComparisonFailure: expected:<[Cogmento CRM]> but was:<[#1 Free CRM customer relationship management software cloud]>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at StepDefination.contactStepDefination.title_of_login_page_is(contactStepDefination.java:35)
-	at ✽.title of login page is Cogmento CRM(file:///C:/Users/wahid/IdeaProjects/untitled/SeleniumCucumber/src/test/java/Features/contact.feature:4)
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="10.29">
+    <testcase classname="Deal data Creation" name="Free CRM create a new deal scanrio" time="10.118">
+        <system-out>
+            <![CDATA[Given user already present in login Page....................................passed
+When tile page is Cogmento CRM..............................................passed
+Then user enter username and password.......................................passed
+Then user clicks on login button............................................passed
+Then user is on home page...................................................passed
+Then user moves to new deal page............................................passed
+Then user enters deal details...............................................passed
+Then Close the browsers.....................................................passed
 ]]>
-        </failure>
-    </testcase>
-    <testcase classname="Free CRM create Contacts" name="Free CRM create a new contact scenario 2" time="96.066">
-        <failure message="expected:&lt;[Cogmento CRM]&gt; but was:&lt;[ui.cogmento.com | 522: Connection timed out]&gt;" type="org.junit.ComparisonFailure">
-            <![CDATA[Given user already in login Page............................................passed
-When title of login page is Cogmento CRM....................................failed
-Then user enters amrin01@gmail.com and Amrin7890............................skipped
-Then user click to login Button.............................................skipped
-Then user is on Home Page...................................................skipped
-Then user moves to new contact page.........................................skipped
-Then user enters details Tom and Siebel and Manager.........................skipped
-Then close the browser......................................................skipped
-
-StackTrace:
-org.junit.ComparisonFailure: expected:<[Cogmento CRM]> but was:<[ui.cogmento.com | 522: Connection timed out]>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at StepDefination.contactStepDefination.title_of_login_page_is(contactStepDefination.java:35)
-	at ✽.title of login page is Cogmento CRM(file:///C:/Users/wahid/IdeaProjects/untitled/SeleniumCucumber/src/test/java/Features/contact.feature:4)
-]]>
-        </failure>
+        </system-out>
     </testcase>
 </testsuite>
